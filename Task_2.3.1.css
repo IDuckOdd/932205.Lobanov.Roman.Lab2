@@ -6,6 +6,7 @@ html, main, p, body, h1, h3{
 main{
     background-color: blue;
     align-self: center;
+    margin-top: 10px;
     margin-left: 34%;
     margin-right: 34%;
 }
