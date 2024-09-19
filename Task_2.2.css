@@ -17,7 +17,7 @@ html, p, body, h1, h3{
     padding-bottom: 25px;
 }
 
-.main{
+main{
     margin: 0;
     padding: 0;
     display: flex;
@@ -28,13 +28,7 @@ html, p, body, h1, h3{
     padding-left: 10px;
     padding-bottom: 10px;
     background-color: #C8FC98;
-    max-width: 200px;
-    float: left;
-}
-
-.left_column h3{
-    margin: 0;
-    padding: 0;
+    max-width: 25%;
 }
 
 .left_column span{
@@ -60,6 +54,8 @@ html, p, body, h1, h3{
 .content_column h3{
     display: inline;
 }
+
+
 
 .footer{
     margin: 0;
