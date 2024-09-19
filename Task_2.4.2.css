@@ -5,10 +5,10 @@ html, main, p, body, h1, h3{
 
 main{
     background-color: blue;
-    align-self: left;
-    margin-left: 10px;
+    align-self: center;
     margin-top: 10px;
-    max-width: 600px;
+    margin-left: 10px;
+    max-width: 485px;
 }
 
 main p{
