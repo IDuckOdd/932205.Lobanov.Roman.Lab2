@@ -1,0 +1,15 @@
+html, main, p, body, h1, h3{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    background-color: blue;
+    align-self: center;
+    margin-left: 34%;
+    margin-right: 34%;
+}
+
+main p{
+    color: white;
+}
