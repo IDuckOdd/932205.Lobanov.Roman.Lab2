@@ -20,6 +20,7 @@ html, p, body, h1, h3{
 .main{
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 .left_column{
@@ -27,7 +28,7 @@ html, p, body, h1, h3{
     padding-left: 10px;
     padding-bottom: 10px;
     background-color: #C8FC98;
-    width: 200px;
+    max-width: 200px;
     float: left;
 }
 
@@ -43,6 +44,8 @@ html, p, body, h1, h3{
 
 .content_column{
     display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .content_column span{
@@ -51,6 +54,11 @@ html, p, body, h1, h3{
 }
 
 .content_column p{
+    display: inline;
+}
+
+.content_column h3{
+    display: inline;
 }
 
 .footer{
