@@ -6,7 +6,6 @@ html, main, p, body, h1, h3{
 main{
     background-color: blue;
     align-self: center;
-    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     max-width: 600px;
