@@ -1,0 +1,22 @@
+html, body, div, p, footer, ul{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    align-self: center;
+}
+
+.content img{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.content p{
+    color: white;
+}
