@@ -1,0 +1,18 @@
+html, body, div, p, footer, ul{
+    margin: 0;
+    padding: 0;
+}
+
+.float_box{
+    background-color: aquamarine;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 100px;
+}
+
+.clear_box{
+    background-color: bisque;
+    margin: 5px;
+}
