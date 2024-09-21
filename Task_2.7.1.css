@@ -1,0 +1,60 @@
+html, body, div, p{
+    margin: 0;
+    padding: 0;
+}
+
+p{color: white}
+
+body{display: flex;}
+
+.static_block{
+    position: static;
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 100px;
+}
+
+.first_relative_block{
+    position: relative;
+    background-color: darkred;
+    left: 10px;
+    width: 150px;
+    height: 100px;
+}
+
+.second_relative_block{
+    position: relative;
+    background-color: peru;
+    left: 40px;
+    top: -30px;
+    width: 150px;
+    height: 100px;
+
+}
+
+.third_relative_block{
+    background-color: indianred;
+    position: relative;
+    left: 10px;
+    width: 600px;
+    height: 400px;
+}
+
+.absolute_block{    
+    position: relative;
+    background-color: indigo;
+    left: 300px;
+    top: 100px;
+    width: 300px;
+    height: 200px;
+}
+
+.fixed_block{
+    position: fixed;
+    background-color: green;
+    height: 100px;
+    right: 0;
+    bottom: 0;
+}
