@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.blocks{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.inline_block{
+    background-color: aquamarine;
+    display: inline-block;
+    margin: 15px;
+    width: 200px;
+    height: 100px;
+}
+
+.clear_block{
+    background-color: bisque;
+    margin: 5px;
+}
