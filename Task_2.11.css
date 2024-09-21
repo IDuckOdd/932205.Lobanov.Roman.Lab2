@@ -1,0 +1,13 @@
+html, body, div, p, img{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    background-color: aqua;
+    border: 1px solid green;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
