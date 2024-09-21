@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: aqua;
+    border: 1px solid green;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    min-width: 120px;
+    max-width: 30%;
+    float: left;
+    margin-right: 5px;
+}
+
+.menu ul{
+    margin-left: 40px;
+}
+
+.content{
+    background-color: darkgray;
+    margin-right: 5px;
+    width: 100%;
+    min-width: 400px;
+    max-width: 70%;
+}
+
+@media (max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
+}
